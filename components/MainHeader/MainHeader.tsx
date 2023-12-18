@@ -3,6 +3,7 @@ import React from "react";
 import logoImg from "@/assets/logo.png";
 import Image from "next/image";
 import { MainHeaderBackground } from ".";
+import { NavLink } from "..";
 
 const MainHeader: React.FC = ({}) => {
   return (
@@ -26,20 +27,42 @@ const MainHeader: React.FC = ({}) => {
         <nav>
           <ul className="flex m-0 p-0 gap-6 text-base">
             <li>
-              <Link
+              <NavLink
                 href="/meals"
-                className="no-underline text-[#ddd6cb] font-bold transition duration-300 ease-in-out hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-400 hover:bg-clip-text hover:text-transparent hover:text-shadow"
+                className="focus:bg-gradient-to-r 
+                focus:from-orange-500 
+                focus:to-yellow-400  
+                focus:bg-clip-text 
+                focus:text-transparent 
+                focus:text-shadow
+                active:bg-gradient-to-r 
+                active:from-orange-500 
+                active:to-yellow-400 
+                active:bg-clip-text
+                active:text-transparent 
+                active:text-shadow"
               >
                 Browse Meals
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link
+              <NavLink
                 href="/community"
-                className="no-underline text-[#ddd6cb] font-bold transition duration-300 ease-in-out hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-400 hover:bg-clip-text hover:text-transparent hover:text-shadow"
+                className="focus:bg-gradient-to-r 
+                focus:from-orange-500 
+                focus:to-yellow-400  
+                focus:bg-clip-text 
+                focus:text-transparent 
+                focus:text-shadow
+                active:bg-gradient-to-r 
+                active:from-orange-500 
+                active:to-yellow-400 
+                active:bg-clip-text
+                active:text-transparent 
+                active:text-shadow"
               >
                 Food Community
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </nav>

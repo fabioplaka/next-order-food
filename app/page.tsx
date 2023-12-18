@@ -10,10 +10,10 @@ export default function Home() {
         </div>
         <div className="flex flex-col justify-around">
           <div className="text-[#ddd6cb] text-2xl">
-            <h1 className="text-[2rem] font-bold tracking-[0.15rem] uppercase bg-gradient-to-r from-orange-500 to-yellow-300 bg-clip-text text-transparent mb-8">
+            <h1 className="text-4xl font-bold tracking-[0.15rem] uppercase bg-gradient-to-r from-orange-500 to-yellow-300 bg-clip-text text-transparent ">
               NextLevel Food for NextLevel Foodies
             </h1>
-            <p>Taste & share food from all over the city.</p>
+            <p className="my-4">Taste & share food from all over the city.</p>
           </div>
           <div className="flex text-2xl	gap-4">
             <Link
@@ -34,12 +34,12 @@ export default function Home() {
       <main>
         <section className="flex flex-col items-center text-gray-300 text-[1.5rem] w-[90%] max-w-[50rem] mx-auto my-8 text-center">
           <h2 className="text-2xl font-bold mt-16 mb-8">How it works</h2>
-          <p className="my-8">
+          <p className="text-base my-4">
             NextLevel Food is a platform for foodies to share their favorite
             recipes with the world. It&apos;s a place to discover new dishes,
             and to connect with other food lovers.
           </p>
-          <p>
+          <p className="text-base my-4">
             NextLevel Food is a place to discover new dishes, and to connect
             with other food lovers.
           </p>
@@ -47,12 +47,12 @@ export default function Home() {
 
         <section className="lex flex-col items-center text-gray-300 text-[1.5rem] w-[90%] max-w-[50rem] mx-auto my-8 text-center">
           <h2 className="text-2xl font-bold mt-16 mb-8">Why NextLevel Food?</h2>
-          <p className="my-8">
+          <p className="text-base my-4">
             NextLevel Food is a platform for foodies to share their favorite
             recipes with the world. It&apos;s a place to discover new dishes,
             and to connect with other food lovers.
           </p>
-          <p>
+          <p className="text-base my-4">
             NextLevel Food is a place to discover new dishes, and to connect
             with other food lovers.
           </p>
