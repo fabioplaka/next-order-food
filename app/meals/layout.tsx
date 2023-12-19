@@ -5,12 +5,7 @@ interface MealsLayoutProps {
 }
 
 const MealsLayout: React.FC<MealsLayoutProps> = ({ children }) => {
-  return (
-    <>
-      <p>Meals layout</p>
-      {children}
-    </>
-  );
+  return <>{children}</>;
 };
 
 export default MealsLayout;
